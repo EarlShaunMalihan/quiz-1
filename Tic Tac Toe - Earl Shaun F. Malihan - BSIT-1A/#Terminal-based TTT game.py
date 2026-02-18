@@ -78,7 +78,7 @@ def play_ze_game():
                 print("Winna Winna " + game[0]+" it's chicken dinna!")
             elif game[2] == game[4] == game[6] != "-":
                 gnabois = False
-                print("Winna Winna "+ game[6]+" it's chicken dinna!1")
+                print("Winna Winna "+ game[6]+" it's chicken dinna!")
             elif "-" not in game:
                 gnabois = False
                 print("Close fight, a winner would have been nice tho UWU")
@@ -94,6 +94,7 @@ def play_ze_game():
         who_ze_winna()
 
 play_ze_game()
+
 
 
 
